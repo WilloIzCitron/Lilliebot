@@ -111,5 +111,6 @@ async def on_member_join(self, member):
     if guild.system_channel is not None:
         to_send = 'Welcome {0.mention} to {1.name}!'.format(member, guild)
         await guild.system_channel.send(to_send)
-
-client.run('NzAzNDI3ODgyNzI2NDU3NDAz.Xqt8hA.QoQIt7HlHYFLao59P5S4g8p7qsU')
+        
+TOKEN = os.environ.get("DISCORD_BOT_SECRET")
+client.run(TOKEN)
