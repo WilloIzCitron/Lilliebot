@@ -56,7 +56,10 @@ async def on_message(message):
         embed = discord.Embed(
             title="Lilliebot Biodata", description=(random.choice(['this is fun fact?', 'also try username601', 'what is this?', 'also try Nezumi Yui', 'you know? who is Vladimir Putin', 'press Alt+F4', 'you know? who is Ash Kentchum','You eat Nugget everyday?'])), colour=0xFBFB9B)
         embed.add_field(name='Bot Biodata', value='Programing code:python(py)\nBot Created:April 25 2020\nCreated by: ||<@479642404216111124> or someball45#2588||\nDefault Prefix: l$')
-        embed.add_field(name='Programer biodata', value='Favorite game=Terraria,Minecraft,From The Depths, Pc Buidling Simulator\nFavorite Language:Python,HTML,Javascript\nName:Willoizcitron\nSocial Media:\n[Github](https://github.com/WilloIzCitron)')
+        embed.add_field(name='Programer biodata', value='Favorite game=Terraria,Minecraft,From The Depths, Pc Buidling Simulator\nFavorite Language:Python,HTML,Javascript\nName:Willoizcitron\nSocial Media:\n[Github](https://github.com/WilloIzCitron)\n[Repl.It](https://repl.it/@SomeBall45)')
+        embed.add_field(name='Versions', value='Discord.py = 1.3.3\nBot Version = Pre Release 0.12\n')
+        embed.add_field(name='Links', value=('[Donate A Hacker Plan](https://repl.it/upgrade/SomeBall45)'))
+        embed.set_thumbnail(url='https://cdn.discordapp.com/avatars/703427882726457403/89b43921fbcd58a3ff05b0bc9f7a7826.png?size=2048')
         embed.set_footer(text='©Willoizcitron 2020-2020')
 
     if message.content.startswith('l$nuke'):
