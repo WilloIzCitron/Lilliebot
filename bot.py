@@ -56,7 +56,7 @@ async def on_message(message):
         embed = discord.Embed(
             title="Lilliebot Biodata", description=(random.choice(['this is fun fact?', 'also try username601', 'what is this?', 'also try Nezumi Yui', 'you know? who is Vladimir Putin', 'press Alt+F4', 'you know? who is Ash Kentchum','You eat Nugget everyday?'])), colour=0xFBFB9B)
         embed.add_field(name='Bot Biodata', value='Programing code:python(py)\nBot Created:April 25 2020\nCreated by: ||<@479642404216111124> or someball45#2588||\nDefault Prefix: l$')
-        embed.add_field(name='Programer biodata', value='Favorite game=Terraria,Minecraft,From The Depths, Pc Buidling Simulator\nFavorite Language:Python,HTML,Javascript\nName:Willoizcitron\nSocial Media:')
+        embed.add_field(name='Programer biodata', value='Favorite game=Terraria,Minecraft,From The Depths, Pc Buidling Simulator\nFavorite Language:Python,HTML,Javascript\nName:Willoizcitron\nSocial Media:\n[Github](https://github.com/WilloIzCitron)')
         embed.set_footer(text='©Willoizcitron 2020-2020')
 
     if message.content.startswith('l$nuke'):
