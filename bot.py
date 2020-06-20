@@ -47,9 +47,6 @@ async def on_message(message):
         embed = discord.Embed(colour=discord.Colour.magenta())
         embed.set_image(url=message.guild.get_member(int(split()[1][2:][:-1])).avatar_url)
 
-    if message.content.startswith('l$whoareyou'):
-        await message.channel.send('im liliebot i can help you')
-
     if message.content.startswith('l$kick'):
        if len(split)<2:
           await message.channel.send('MENTION SOMEONE FOR KICKING')
